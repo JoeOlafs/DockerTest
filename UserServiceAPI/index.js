@@ -13,6 +13,10 @@ app.get('/', (req, res) => res.json ([{
 {
      name: 'Jake',
      email: 'jake@john.com'
+},
+{
+     name: 'maria',
+     email: 'maria@gmail.com'
 }]))
 
 app.listen(port, () => {
