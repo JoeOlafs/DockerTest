@@ -5,6 +5,10 @@ const port = 3000
 app.get('/', (req, res) => res.json ([{
   name: 'Bob',
   email: 'bob@builder.com'
+},
+{
+     name: 'Alice',
+     email: 'alice@gmail.com'
 }]))
 
 app.listen(port, () => {
